@@ -6,8 +6,8 @@ from os import listdir, getcwd
 from os.path import join
 import argparse
 
-dirs = ['train', 'val']
-classes = ['person', 'car']
+dirs = ['/content/data_fish/fish/images/']
+classes = ['fish']
 
 def getImagesInDir(dir_path):
     image_list = []
